@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+# OpenRA Academy
 
-You can use the [editor on GitHub](https://github.com/OpenRA-Academy/OpenRA-Academy.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Welcome to the OpenRA Academy repository. This is a community-driven guide to step up
+your gameplay in [OpenRA](https://github.com/OpenRA/OpenRA).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You can reach the Academy at
+[openra-academy.github.io](https://openra-academy.github.io).
 
-### Markdown
+We have a
+[Discord channel](https://discord.com/channels/697855337457516615/697863837952770109)
+where you can interact with the community.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Contribute 👨‍💻
 
-```markdown
-Syntax highlighted code block
+You can contribute by submitting pull requests to the repository. Once approved, the
+new content will be automatically deployed to our website.
 
-# Header 1
-## Header 2
-### Header 3
+We use the static website generator [Jekyll](https://jekyllrb.com), and most of our
+pages are written in [Markdown](https://guides.github.com/features/mastering-markdown)
+(here is a
+[Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)).
 
-- Bulleted
-- List
+We use [GitHub Pages](https://pages.github.com) to host the website and automatize 
+deployments when a new pull request is merged.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/OpenRA-Academy/OpenRA-Academy.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+The GitHub interface allows for in-browser modifications. That works well for
+minor contributions, but you may want to download a local copy of the repository and
+use an external tool for extensive contributions. We suggest to use the free source-code editor
+[Visual Studio Code](https://code.visualstudio.com), or its open source counterpart
+[VSCodium](https://vscodium.com), to simplify editing and previewing the files
+on the fly.
