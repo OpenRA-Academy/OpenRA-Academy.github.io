@@ -3,7 +3,11 @@
 
 # Plugin
 # ? REF: https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
 theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 # remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 locale: "en-US"
