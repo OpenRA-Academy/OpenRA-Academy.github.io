@@ -1,0 +1,13 @@
+main:
+  - title: "Learn"
+    url: "/learn"
+    description: "Step-up your game by learning new strategies"
+  - title: "Graduate"
+    url: "/graduate"
+    description: "Demonstrate what you have learned"
+  - title: "Explore"
+    url: "/explore"
+    description: "Explore the OpenRA world"
+  - title: "Contribute"
+    url: "/contribute"
+    description: "contribute to the OpenRA community"

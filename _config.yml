@@ -1,1 +1,74 @@
-theme: jekyll-theme-midnight
+# Site settings
+# You will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+
+# Plugin
+# ? REF: https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+theme: minimal-mistakes-jekyll
+# remote_theme: "mmistakes/minimal-mistakes@4.21.0"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+locale: "en-US"
+
+title: OpenRA Academy
+subtitle: Play OpenRA competitively
+name: OpenRA Academy
+email: notsetyet@noema.il
+description: >- # this means to ignore newlines until the next variable
+  OpenRA Academy - step up your OpenRA game by learning the basics to play
+  competitively online.
+repository: "OpenRA-Academy/OpenRA-Academy.github.io"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://openra-academy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+teaser: "/assets/images/OraAcademyLogoClean.png"
+logo: "/assets/images/OraAcademyLogoClean.png"
+masthead_title: "" # "OpenRA Academy"
+read_time: true
+words_per_minute: 200
+header:
+  teaser: "/assets/images/OraAcademyLogoClean.png"
+search: true
+search_full_content: true
+
+social:
+  type: "Organization" # Person or Organization (defaults to Person)
+  name: "OpenRA Academy"
+  links:
+    - "https://discord.com/channels/697855337457516615/697863837952770109"
+    - "https://github.com/OpenRA-Academy/OpenRA-Academy.github.io"
+
+footer:
+  links:
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.com/channels/697855337457516615/697863837952770109"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/OpenRA-Academy/OpenRA-Academy.github.io"
+
+breadcrumbs: true
+breadcrumb_home_label: "Academy"
+breadcrumb_separator: ">"
+
+
+# head_scripts:
+#   - https://code.jquery.com/jquery-3.2.1.min.js
+#   - /assets/js/your-custom-head-script.js
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
